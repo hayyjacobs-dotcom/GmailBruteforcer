@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import smtplib
-print("                             ")
+print(" jimiyont1947@gmail.com ")
 print("\t#################################################")
 print("\t#         Welcome to Email Brute forcer tool    #")
 print("\t#          Created by @ashujaiswal109           #")
@@ -11,7 +11,7 @@ smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-user = input(jimiyont1947@gmail.com)
+user = input("Enter the target email: ")
 print("                                  ")
 passwf = input("Enter password file: ")
 print("                                   ")
